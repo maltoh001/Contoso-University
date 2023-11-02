@@ -19,7 +19,7 @@ jobs:
          name: packed-solution
      - uses: microsoft/powerplatform-actions/import-solution@v0
        with:
-         environment-url: <https://orgcc14060c.crm6.dynamics.com/main.aspx?forceUCI=1&pagetype=apps>
+         environment-url: <https://orgcc14060c.crm6.dynamics.com>
          user-name: ${{ secrets.USERNAME }}
          password-secret: ${{ secrets.PASSWORD }}
          solution-file: contoso_university_core_managed.zip
