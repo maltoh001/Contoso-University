@@ -16,7 +16,7 @@ jobs:
      - uses: dawidd6/action-download-artifact@v2
        with:
          workflow: pack-solution.yml
-         name: packed-solution
+         name: pack-solution
      - uses: microsoft/powerplatform-actions/import-solution@v0
        with:
          environment-url: <https://orgcc14060c.crm6.dynamics.com/>
