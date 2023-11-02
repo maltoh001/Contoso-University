@@ -11,7 +11,7 @@ on:
 jobs:
  deploy:
    runs-on: windows-latest
-   environment: production
+   environment: Contoso-University-Dev
    steps:
      - uses: dawidd6/action-download-artifact@v2
        with:
